@@ -11,7 +11,7 @@ const projectsData = [
     id: 1,
     title: "License Management Website",
     description: "Website that manages licenses used by a company",
-    image: "/Images/php_license.png",
+    image: "/Images/Image4.jpeg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/manny7077/License-database/tree/master",
     previewUrl: "/",
@@ -20,7 +20,7 @@ const projectsData = [
     id: 2,
     title: "GridContacts Website",
     description: "This website is designed to streamline user management and provide a convenient platform for both staff and management users.",
-    image: "/Images/django-1.png",
+    image: "/Images/Image1.jpeg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/manny7077/Django-GridContacts",
     previewUrl: "/",
@@ -29,7 +29,34 @@ const projectsData = [
     id: 3,
     title: "Restaurant Landing Page",
     description: "In Progress....",
-    image: "/Images/3.png",
+    image: "/Images/Image5.jpeg",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Restaurant Landing Page",
+    description: "In Progress....",
+    image: "/Images/Image10.jpeg",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Restaurant Landing Page",
+    description: "In Progress....",
+    image: "/Images/Image11.jpeg",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Restaurant Landing Page",
+    description: "In Progress....",
+    image: "/Images/Image9.jpeg",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -58,25 +85,8 @@ const ProjectsSection = () => {
   return (
     <section id='projects'>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+      Gallery
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
-      </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li 
