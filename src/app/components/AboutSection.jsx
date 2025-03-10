@@ -17,6 +17,7 @@ const TAB_DATA =[
                 <li>React</li>
                 <li>Python</li>
                 <li>Next.js</li>
+                <li>Vue.js</li>
             </ul>
         )
     },
@@ -49,7 +50,7 @@ const AboutSection = () => {
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base md:text-lg'> I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Next.js, Python, PHP, MySQL,
+            working with JavaScript, React, Next.js, Vue.js, Python, PHP, MySQL,
             Django, HTML, CSS, and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing web applications.

@@ -27,9 +27,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Restaurant Landing Page",
-    description: "In Progress....",
-    image: "/Images/3.png",
+    title: "Infirmary Management System",
+    description: "This system allows hospital staff to create medical bills for both registered and new patients, including dependents of staff members. Bills consist of various medical services with corresponding prices. The platform ensures seamless patient management across multiple branches while streamlining billing processes.",
+    image: "/Images/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
